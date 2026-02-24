@@ -12,6 +12,8 @@
 .offers-cards header{
     display: block;
     position: static;
+    padding: 0;
+    margin-bottom: 24px;
 }
 
 .offers-cards p{
@@ -29,4 +31,19 @@
     display: inline-block;
     font-size: 32px;
     margin-top: 24px;
+}
+
+@media screen and (min-width: 1024px) {
+    .offers-cards{
+      width: 588px;
+      height: 308px;
+    }
+
+    .offers-cards h3{
+    font-size: 48px;
+}
+
+.offers-cards span{
+    font-size: 40px;
+}
 }
