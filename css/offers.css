@@ -1,0 +1,32 @@
+.offers-cards{
+    color: var(--text-secondary-color);
+    background-color: black;
+    width: 312px;
+    height: 288px;
+    box-sizing: border-box;
+    padding: 24px 16px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.offers-cards header{
+    display: block;
+    position: static;
+}
+
+.offers-cards p{
+    font-size: 20px;
+    font-weight: var(--text-weight);
+}
+
+.offers-cards h3{
+    font-size: 40px;
+    font-weight: var(--title-weight);
+    margin: 8px 0 0;
+}
+
+.offers-cards span{
+    display: inline-block;
+    font-size: 32px;
+    margin-top: 24px;
+}
