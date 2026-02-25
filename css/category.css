@@ -1,5 +1,5 @@
-.title-section.category{
-    padding-top: 88px;
+.title-section.category {
+  padding-top: 88px;
 }
 
 .category-cards {
@@ -15,25 +15,51 @@
   width: 312px;
   height: 220px;
   box-sizing: border-box;
-  padding: 41px 16px;
+  padding: 24px 16px;
   border-radius: 8px;
   text-align: center;
   text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.card-cat header{
-    display: inline-block;
-    background-color: transparent;
-    padding: 0;
-    position: static;
-    margin-bottom: 24px;
+.card-cat header {
+  display: inline-block;
+  background-color: transparent;
+  padding: 0;
+  position: static;
+  margin-bottom: 24px;
 }
 
-.card-cat img{
-    width: 80px;
+.card-cat img {
+  width: 80px;
 }
 
-.card-cat h3{
-    font-size: 28px;
-    color: var(--text-primary-color);
+.card-cat h3 {
+  font-size: 28px;
+  color: var(--text-primary-color);
+}
+
+@media screen and (min-width: 768px) {
+    .category-cards{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+  .card-cat {
+    width: 330px;
+    height: 220px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .card-cat {
+    width: 280px;
+    height: 220px;
+  }
 }
