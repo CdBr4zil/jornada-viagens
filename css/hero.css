@@ -1,50 +1,50 @@
-.hero{
+section.hero {
   width: 100%;
   margin: 0;
 }
 
-.img-hero{
-    height: 400px;
-    width: 100%;
-    background: url(../img/hero-mobile.jpg) no-repeat;
-    background-size: cover;
+.img-hero {
+  height: 400px;
+  background: url(../img/hero-mobile.jpg) no-repeat;
+  background-size: cover;
 }
 
-.h2-hero{
-    padding: 88px 24px;
-    margin: 0 auto;
-    font-weight: var(--text-weight);
-    font-size: 20px;
-    text-align: center;
-    line-height: 1.5;
+.h2-hero {
+  padding: 88px;
+  margin: 0 auto;
+  font-weight: var(--text-weight);
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 1200px;
 }
 
 @media screen and (min-width: 768px) {
-    .img-hero {
+  .img-hero {
     height: 620px;
     background: url(../img/hero-tablet.jpg) no-repeat;
     background-size: cover;
-    }
+  }
 
-    .h2-hero{
-    padding: 88px 60px;
+  .h2-hero {
     font-size: 32px;
-    }
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    .img-hero {
+  .img-hero {
     background: url(../img/hero-desktop.jpg) no-repeat;
     background-size: cover;
-    }
+  }
 
-    .h2-hero{
-        padding: 88px 120px;
-    }
+  .h2-hero {
+    padding: 88px;
+  }
 }
 
 @media screen and (min-width: 1920px) {
-    .h2-hero{
-        padding: 88px 160px;
-    }
+  .h2-hero {
+    padding: 88px;
+  }
 }
