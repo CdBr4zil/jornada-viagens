@@ -1,170 +1,160 @@
 <!doctype html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="favicon.svg" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Jornada Viagens</title>
-  </head>
-  <body>
-    <header>
-      <a class="logo" ref="index.html" title="Voltar para a página inicial">
-        <img
-          class="img-mobile"
-          src="img/bussola-branca-jornada.svg"
-          alt="Bussola do logo Jornada Viagens na cor branca"
-        />
-        <img
-          class="img-desktop"
-          src="img/logo-branco-jornada-viagem.svg"
-          alt="Logo Jornada Viagens na cor branca"
-        />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="favicon.svg" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Jornada Viagens</title>
+</head>
+
+<body>
+  <header>
+    <a class="logo" ref="index.html" title="Voltar para a página inicial">
+      <img class="img-mobile" src="img/bussola-branca-jornada.svg"
+        alt="Bussola do logo Jornada Viagens na cor branca" />
+      <img class="img-desktop" src="img/logo-branco-jornada-viagem.svg" alt="Logo Jornada Viagens na cor branca" />
+    </a>
+    <div class="navigation-menu">
+      <label for="menu">
+        <img src="img/menu.svg" alt="menu" />
+      </label>
+      <!--Esse input pode ser substituido depois por JS-->
+      <input id="menu" type="checkbox" hidden />
+      <nav>
+        <ul class="list-link">
+          <li>
+            <a href="blog.html" target="_blank" title="Acessar Blog">Blog</a>
+          </li>
+          <li>
+            <a href="pacotes.html" target="_blank" title="Acessar Pacotes de Viagem">Pacotes de viagem</a>
+          </li>
+          <li>
+            <a href="contato.html" target="_blank" title="Acessar Contato">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="img-hero"></div>
+    <h2 class="h2-hero">
+      Somos uma agência apaixonada por criar viagens inesquecíveis. Do destino
+      à seleção das atividades, cuidamos de todos os detalhes para que você
+      aproveite ao máximo cada momento da sua jornada!
+    </h2>
+  </section>
+  <section class="offers">
+    <div class="title-section">
+      <h2>Ofertas da Semana</h2>
+      <hr />
+    </div>
+    <div class="offers-cards">
+      <article class="card japao">
+        <header>
+          <p>HOTEL+AÉREO</p>
+          <h3>
+            Japão <br />
+            <span>R$4000</span>
+          </h3>
+        </header>
+        <footer>
+          <a href="#" class="button" target="_blank">Ver detalhes</a>
+        </footer>
+      </article>
+      <article class="card san-andreas">
+        <header>
+          <p>HOTEL+AÉREO</p>
+          <h3>
+            San Andreas <br />
+            <span>R$3000</span>
+          </h3>
+        </header>
+        <footer>
+          <a href="#" class="button" target="_blank">Ver detalhes</a>
+        </footer>
+      </article>
+      <article class="card paraiba">
+        <header>
+          <p>HOTEL+AÉREO</p>
+          <h3>
+            Paraíba <br />
+            <span>R$1200</span>
+          </h3>
+        </header>
+        <footer>
+          <a href="#" class="button" target="_blank">Ver detalhes</a>
+        </footer>
+      </article>
+      <article class="card manaus">
+        <header>
+          <p>HOTEL+AÉREO</p>
+          <h3>
+            Manaus <br />
+            <span>R$1600</span>
+          </h3>
+        </header>
+        <footer>
+          <a href="#" class="button" target="_blank">Ver detalhes</a>
+        </footer>
+      </article>
+    </div>
+  </section>
+  <section class="category">
+    <div class="title-section category">
+      <h2>Busque por Categoria</h2>
+      <hr />
+    </div>
+    <div class="category-cards">
+      <a href="#" class="card" target="_blank" title="Busca pela categoria Pacotes Nacionais">
+        <img src="img/icon-pacotes-nacionais.svg" alt="Icone cinza de uma pessoa fazendo trilha" />
+        <h3>Pacotes Nacionais</h3>
       </a>
-      <div class="navigation-menu">
-        <label for="menu">
-          <img src="img/menu.svg" alt="menu" />
-        </label>
-        <!--Esse input pode ser substituido depois por JS-->
-        <input id="menu" type="checkbox" hidden />
-        <nav>
-          <ul class="list-link">
-            <li>
-              <a href="blog.html" target="_blank" title="Acessar Blog">Blog</a>
-            </li>
-            <li>
-              <a
-                href="pacotes.html"
-                target="_blank"
-                title="Acessar Pacotes de Viagem"
-                >Pacotes de viagem</a
-              >
-            </li>
-            <li>
-              <a href="contato.html" target="_blank" title="Acessar Contato"
-                >Contato</a
-              >
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <section class="hero">
-      <div class="img-hero"></div>
-      <h2 class="h2-hero">
-        Somos uma agência apaixonada por criar viagens inesquecíveis. Do destino
-        à seleção das atividades, cuidamos de todos os detalhes para que você
-        aproveite ao máximo cada momento da sua jornada!
-      </h2>
-    </section>
-    <section class="offers">
-      <div class="title-section">
-        <h2>Ofertas da Semana</h2>
-        <hr />
-      </div>
-      <div class="offers-cards">
-        <article class="card japao">
-          <header>
-            <p>HOTEL+AÉREO</p>
-            <h3>
-              Japão <br />
-              <span>R$4000</span>
-            </h3>
-          </header>
-          <footer>
-            <a href="#" class="button" target="_blank">Ver detalhes</a>
-          </footer>
-        </article>
-        <article class="card san-andreas">
-          <header>
-            <p>HOTEL+AÉREO</p>
-            <h3>
-              San Andreas <br />
-              <span>R$3000</span>
-            </h3>
-          </header>
-          <footer>
-            <a href="#" class="button" target="_blank">Ver detalhes</a>
-          </footer>
-        </article>
-        <article class="card paraiba">
-          <header>
-            <p>HOTEL+AÉREO</p>
-            <h3>
-              Paraíba <br />
-              <span>R$1200</span>
-            </h3>
-          </header>
-          <footer>
-            <a href="#" class="button" target="_blank">Ver detalhes</a>
-          </footer>
-        </article>
-        <article class="card manaus">
-          <header>
-            <p>HOTEL+AÉREO</p>
-            <h3>
-              Manaus <br />
-              <span>R$1600</span>
-            </h3>
-          </header>
-          <footer>
-            <a href="#" class="button" target="_blank">Ver detalhes</a>
-          </footer>
-        </article>
-      </div>
-    </section>
-    <section class="category">
-      <div class="title-section category">
-        <h2>Busque por Categoria</h2>
-        <hr />
-      </div>
-      <div class="category-cards">
-        <a
-          href="#"
-          class="card"
-          target="_blank"
-          title="Busca pela categoria Pacotes Nacionais"
-        >
-            <img
-              src="img/icon-pacotes-nacionais.svg"
-              alt="Icone cinza de uma pessoa fazendo trilha"
-            />
-            <h3>Pacotes Nacionais</h3>
-        </a>
-        <a
-          href="#"
-          class="card"
-          target="_blank"
-          title="Busca pela categoria Pacotes Internacionais"
-        >
-          <img
-            src="img/icon-pacotes-internacionais.svg"
-            alt="Icone cinza de uma avião"
-          />
-          <h3>Pacotes Internacionais</h3>
-        </a>
-        <a
-          href="#"
-          class="card single-line transfer"
-          target="_blank"
-          title="Busca pela categoria Transfer"
-        >
-          <img src="img/icon-transfer.svg" alt="Icone cinza de uma van" />
-          <h3>Transfer</h3>
-        </a>
-        <a
-          href="#"
-          class="card single-line"
-          target="_blank"
-          title="Busca pela categoria Seguro Viagem"
-        >
-          <img
-            src="img/icon-seguro-viagem.svg"
-            alt="Icone cinza de um globo com um cadeado na parte superior direita"
-          />
-          <h3>Seguro Viagem</h3>
-        </a>
-      </div>
-    </section>
-  </body>
+      <a href="#" class="card" target="_blank" title="Busca pela categoria Pacotes Internacionais">
+        <img src="img/icon-pacotes-internacionais.svg" alt="Icone cinza de uma avião" />
+        <h3>Pacotes Internacionais</h3>
+      </a>
+      <a href="#" class="card single-line transfer" target="_blank" title="Busca pela categoria Transfer">
+        <img src="img/icon-transfer.svg" alt="Icone cinza de uma van" />
+        <h3>Transfer</h3>
+      </a>
+      <a href="#" class="card single-line" target="_blank" title="Busca pela categoria Seguro Viagem">
+        <img src="img/icon-seguro-viagem.svg" alt="Icone cinza de um globo com um cadeado na parte superior direita" />
+        <h3>Seguro Viagem</h3>
+      </a>
+    </div>
+  </section>
+  <section class="destination">
+    <div class="title-section">
+      <h2>Destinos Populares</h2>
+      <hr />
+    </div>
+    <div class="item-destination">
+      <article class="item">
+        <header>
+          <div class="img-item"></div>
+          <h4>Tokyo</h4>
+        </header>
+        <p>Tóquio é uma cidade vibrante e cosmopolita, com seus templos históricos, museus de arte moderna e arranha-céus icônicos. Não perca a chance de mergulhar em sua atmosfera fascinante.</p>
+        <footer>
+          <a href="#" class="button">Ver detalhes</a>
+        </footer>
+      </article>
+      <article class="item">
+        <header>
+          <div class="img-item"></div>
+          <h4>Osaka</h4>
+        </header>
+        <p>Osaka é uma cidade agitada e moderna no Japãos. A cidade é famosa por sua gastronomia deliciosa e por ser um excelente ponto de partida para explorar outras cidades japonesas próximas.</p>
+        <footer>
+          <a href="#" class="button">Ver detalhes</a>
+        </footer>
+      </article>
+    </div>
+
+    </div>
+  </section>
+</body>
+
 </html>

@@ -1,0 +1,11 @@
+.destination .item header{
+  display: block;
+  background-color: transparent;
+  position: static;
+  padding: 0;
+  margin-bottom: 24px;
+}
+
+.img-destination div {
+  background-image: url(../img/tokyo-mobile.jpg);
+}
