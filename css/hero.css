@@ -1,3 +1,8 @@
+.hero{
+  width: 100%;
+  margin: 0;
+}
+
 .img-hero{
     height: 400px;
     width: 100%;
@@ -7,7 +12,7 @@
 
 .h2-hero{
     padding: 88px 24px;
-    margin: 0px;
+    margin: 0 auto;
     font-weight: var(--text-weight);
     font-size: 20px;
     text-align: center;
