@@ -26,18 +26,6 @@
   background-size: cover;
 }
 
-.destination .item h4 {
-  color: var(--text-primary-color);
-  font-size: 28px;
-  margin: 24px auto;
-}
-
-.destination .item p {
-  color: var(--text-primary-color);
-  font-size: 20px;
-  margin: 0 auto;
-  padding-bottom: 24px;
-}
 
 .destination .button {
   text-align: center;

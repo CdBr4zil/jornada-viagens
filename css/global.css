@@ -55,6 +55,22 @@ section {
   margin: 16px auto 32px;
 }
 
+.title-content{
+  color: var(--text-primary-color);
+  font-size: 28px;
+  margin: 24px auto;
+}
+
+.text-content {
+  color: var(--text-primary-color);
+  font-size: 20px;
+  margin: 0 auto;
+  padding-bottom: 24px;
+}
+
+/* .img-container {
+} */
+
 .button {
   display: inline-block;
   min-width: 280px;
