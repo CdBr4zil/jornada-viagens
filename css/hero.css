@@ -3,6 +3,17 @@ section.hero {
   margin: 0;
 }
 
+section.footer-hero{
+  width: 100%;
+  margin: 0;
+}
+
+.img-footer{ 
+  height: 400px;
+  background: url(../img/img-footer.jpg) no-repeat;
+  background-size: cover;
+}
+
 .img-hero {
   height: 400px;
   background: url(../img/hero-mobile.jpg) no-repeat;
@@ -26,6 +37,12 @@ section.hero {
     background: url(../img/hero-tablet.jpg) no-repeat;
     background-size: cover;
   }
+
+  .img-footer{ 
+  height: 620px;
+  background: url(../img/img-footer.jpg) no-repeat;
+  background-size: cover;
+}
 
   .h2-hero {
     font-size: 32px;
