@@ -1,0 +1,63 @@
+.payments .content-container .img-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  height: 460px;
+  width: 100%;
+  margin-top: 24px;
+}
+
+.payments .content-container .img-gallery .img.first {
+  background: url(../img/pay-bag-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.payments .content-container .img-gallery .img.second {
+  background: url(../img/pay-passport-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.payments .content-container .img-gallery .img.thirdy {
+  background: url(../img/pay-people-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.payments .content-container .img-gallery .img.colspan-2 {
+  grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+  .payments .content-container .img-gallery .img.first {
+    background: url(../img/pay-bag-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+  .payments .content-container .img-gallery .img.second {
+    background: url(../img/pay-passport-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .content-container .img-gallery .img.thirdy {
+    background: url(../img/pay-people-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .payments .content-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .payments .content-container .title-content {
+    margin: 0 0 24px;
+  }
+
+  .payments .content-container .text-content {
+    width: 360px;
+  }
+
+  .payments .content-container .img-gallery {
+    width: 790px;
+    margin: 0;
+  }
+}

@@ -55,7 +55,7 @@ section {
   margin: 16px auto 32px;
 }
 
-.title-content{
+.title-content {
   color: var(--text-primary-color);
   font-size: 28px;
   margin: 24px auto;
@@ -67,9 +67,6 @@ section {
   margin: 0 auto;
   padding-bottom: 24px;
 }
-
-/* .img-container {
-} */
 
 .button {
   display: inline-block;
