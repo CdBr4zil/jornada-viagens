@@ -40,8 +40,9 @@ section.footer-hero{
 
   .img-footer{ 
   height: 620px;
-  background: url(../img/img-footer.jpg) no-repeat;
+  background: url(../img/img-footer-tablet.jpg) no-repeat;
   background-size: cover;
+  background-position: -500px;
 }
 
   .h2-hero {
@@ -58,10 +59,24 @@ section.footer-hero{
   .h2-hero {
     padding: 88px;
   }
+  
+   .img-footer{ 
+  background-position: -300px;
+}
+}
+
+@media screen and (min-width: 1440px) {
+  .img-footer{ 
+  background-position: 0;
+}
 }
 
 @media screen and (min-width: 1920px) {
   .h2-hero {
     padding: 88px;
   }
+
+  .img-footer{ 
+  background-position: 0;
+}
 }
