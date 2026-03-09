@@ -31,6 +31,31 @@ section.footer-hero{
   max-width: 1200px;
 }
 
+
+.img-hero.pacotes {
+  height: 460px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+              url(../img/hero-pacotes.jpg) no-repeat;
+  background-size: cover;
+  background-position: -300px;
+}
+
+.title-section.pacotes h1 {
+  color: var(--text-secondary-color);
+  text-align: left;
+  padding-top: 65px;
+}
+
+.title-section.pacotes hr {
+  margin: 16px 24px 0;
+}
+
+.h2-hero.pacotes{
+  padding: 32px 24px;
+  text-align: left;
+  color: var(--text-secondary-color);
+}
+
 @media screen and (min-width: 768px) {
   .img-hero {
     height: 620px;
