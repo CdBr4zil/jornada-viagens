@@ -39,6 +39,14 @@ section {
   margin: 0 auto 88px;
 }
 
+.title-section h1 {
+  font-size: 48px;
+  font-weight: var(--title-weight);
+  margin: 0 auto;
+  text-align: center;
+  width: 312px;
+}
+
 .title-section h2 {
   font-size: 28px;
   font-weight: var(--title-weight);
