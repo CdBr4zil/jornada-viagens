@@ -3,12 +3,12 @@ section.hero {
   margin: 0;
 }
 
-section.footer-hero{
+section.footer-hero {
   width: 100%;
   margin: 0;
 }
 
-.img-footer{ 
+.img-footer {
   height: 400px;
   background: url(../img/img-footer.jpg) no-repeat;
   background-size: cover;
@@ -31,29 +31,32 @@ section.footer-hero{
   max-width: 1200px;
 }
 
-
-.img-hero.pacotes {
+.pacotes .img-hero {
   height: 460px;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
-              url(../img/hero-pacotes.jpg) no-repeat;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/hero-pacotes.jpg) no-repeat;
   background-size: cover;
   background-position: -300px;
+  padding: 65px 24px;
 }
 
-.title-section.pacotes h1 {
+.pacotes .title-section h1 {
   color: var(--text-secondary-color);
   text-align: left;
-  padding-top: 65px;
+  margin: 0;
 }
 
-.title-section.pacotes hr {
-  margin: 16px 24px 0;
+.pacotes .title-section hr {
+  margin: 16px 0 32px 0;
 }
 
-.h2-hero.pacotes{
-  padding: 32px 24px;
+.pacotes .h2-hero {
+  padding: 0;
+  margin: 0;
   text-align: left;
   color: var(--text-secondary-color);
+  width: 312px;
 }
 
 @media screen and (min-width: 768px) {
@@ -63,15 +66,29 @@ section.footer-hero{
     background-size: cover;
   }
 
-  .img-footer{ 
-  height: 620px;
-  background: url(../img/img-footer-tablet.jpg) no-repeat;
-  background-size: cover;
-  background-position: -500px;
-}
+  .img-footer {
+    height: 620px;
+    background: url(../img/img-footer-tablet.jpg) no-repeat;
+    background-size: cover;
+    background-position: -500px;
+  }
 
   .h2-hero {
     font-size: 32px;
+  }
+
+  .pacotes .img-hero {
+    height: 620px;
+    background-position: -150px;
+    padding: 210px 120px;
+  }
+
+  .pacotes .title-section h1 {
+    width: 100%;
+  }
+
+  .pacotes .h2-hero {
+    width: 580px;
   }
 }
 
@@ -84,16 +101,20 @@ section.footer-hero{
   .h2-hero {
     padding: 88px;
   }
-  
-   .img-footer{ 
-  background-position: -300px;
-}
+
+  .img-footer {
+    background-position: -300px;
+  }
+
+    .pacotes .img-hero {
+    background-position: 0px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-  .img-footer{ 
-  background-position: 0;
-}
+  .img-footer {
+    background-position: 0;
+  }
 }
 
 @media screen and (min-width: 1920px) {
@@ -101,7 +122,7 @@ section.footer-hero{
     padding: 88px;
   }
 
-  .img-footer{ 
-  background-position: 0;
-}
+  .img-footer {
+    background-position: 0;
+  }
 }
