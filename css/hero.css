@@ -63,6 +63,13 @@ section.hero.pacotes {
   color: var(--text-secondary-color);
 }
 
+.img-footer.pacotes {
+  height: 400px;
+  background: url(../img/img-footer-pacotes.jpg) no-repeat;
+  background-size: cover;
+  background-position: -100px;
+}
+
 @media screen and (min-width: 768px) {
   .img-hero {
     height: 620px;
@@ -94,6 +101,11 @@ section.hero.pacotes {
   .pacotes .h2-hero {
     width: 580px;
   }
+
+  .img-footer.pacotes {
+  height: 620px;
+  background-position: -60px;
+}
 }
 
 @media screen and (min-width: 1024px) {
@@ -113,12 +125,17 @@ section.hero.pacotes {
     .pacotes .img-hero {
     background-position: 0px;
   }
+
+  .img-footer.pacotes {
+  background-position: 0px;
+}
 }
 
 @media screen and (min-width: 1440px) {
   .img-footer {
     background-position: 0;
   }
+
 }
 
 @media screen and (min-width: 1920px) {
