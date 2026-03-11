@@ -31,6 +31,11 @@ section.footer-hero {
   max-width: 1200px;
 }
 
+section.hero.pacotes {
+  width: 100%;
+  margin: 0 0 88px;
+}
+
 .pacotes .img-hero {
   height: 460px;
   background:
